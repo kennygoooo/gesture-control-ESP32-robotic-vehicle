@@ -10,11 +10,11 @@ WebServer server(80);
 // ---------------------- HANDLE COMMANDS ----------------------
 void handleCommand(String cmd) {
   if (cmd.startsWith("move")) {
-    Motor_Move(2000, 2000, 2000, 2000);
+    Motor_Move(-2000,-2000, -2000, -2000);
   } else if (cmd.startsWith("left")) {
-    Motor_Move(-2000, -2000, 2000, 2000);
-  } else if (cmd.startsWith("right")) {
     Motor_Move(2000, 2000, -2000, -2000);
+  } else if (cmd.startsWith("right")) {
+    Motor_Move(-2000, -2000, 2000, 2000);
   } else if (cmd == "0") {
     Motor_Move(0, 0, 0, 0);
   }
