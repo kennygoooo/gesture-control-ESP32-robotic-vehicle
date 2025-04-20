@@ -68,10 +68,12 @@ It is designed for the [Freenove 4WD Smart Car Kit for ESP32](https://store.free
    pio device monitor
    ```
 
-### Demo Video
+### 3.Demo Video
 
 Watch the project in action:  
 [YouTube Demo](https://youtube.com/shorts/OtwPKSwx-Y8)
 
+### 4.System Architecture
+![System Diagram](https://drive.google.com/uc?export=view&id=117BBJ2OMhRqG3LdELHGqwN1iL7YeLGva)
 
 ---
