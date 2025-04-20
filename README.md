@@ -1,6 +1,6 @@
-# AirControl Car - Wireless control using hand and foot movements
+# AirControl Car ESP32 - Wireless Control Using Hand and Foot Movements
 
-This project enables real-time control and video streaming of the Freenove 4WD Car using an ESP32 with ESP32-WROVER CAM. A unique feature of this project is the use of an **Android phone’s front camera** to track the user's **hand and foot movements** via computer vision. These gestures are translated into ** control commands**, allowing for intuitive, touchless interaction with the robotic vehicle.
+This project enables real-time control and video streaming of the Freenove 4WD Car using an ESP32 with ESP32-WROVER CAM. A unique feature of this project is the use of an **Android phone’s front camera** to track the user's **hand and foot movements** via computer vision. These gestures are translated into **control commands**, allowing for intuitive, touchless interaction with the robotic vehicle.
 
 The system is built with [FreeRTOS](), and allows:
 
@@ -31,7 +31,8 @@ It is designed for the [Freenove 4WD Smart Car Kit for ESP32](https://store.free
     - ESP32-WROVER CAM Module  
     - ESP32 Car Shield  
     - 4× DC Motors + Wheels  
-    - 2× Servo Motors    
+    - 2× Servo Motors
+  - Android Phone (Run this project’s [Android app](https://github.com/kennygoooo/gesture-control-app.git) on your phone.)   
 - **Software**:
   - [PlatformIO](https://platformio.org/) in VSCode
   - Required libraries: `WiFi.h`, `esp_camera.h`, `WebServer.h`, `PCA9685.h`, `Arduino.h`
